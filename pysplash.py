@@ -30,6 +30,7 @@ def main(args):
 
     if args.configure == True:
         create_configuration_json(conf)
+        return
     
     if os.path.isfile(CONFIGURATION_JSON) and os.access(CONFIGURATION_JSON, os.R_OK):
         conf.folder,conf.preferred_image_size_w,conf.preferred_image_size_h = get_folder()
