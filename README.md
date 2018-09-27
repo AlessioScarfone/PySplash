@@ -6,7 +6,7 @@ https://source.unsplash.com/
 
 ## How to use:
 
-#### Help:
+### Help:
 
 ```
 > python pysplash.py -h
@@ -22,7 +22,7 @@ optional arguments:
   -v, --version         show program's version number and exit
 ```
 
-#### Configuration File:
+### Configuration File:
 - `-c` option allow the user to create a configuration json where store informations about: folder where save the downloaded images and preferred size 
 
 ```
@@ -35,17 +35,17 @@ Configuration json created.
 ```
 **NOTA:** `config.json` is created and searched in the same folder of the script
 
-#### Basic usage:
+### Basic usage:
 ```
 >python pysplash.py
 ```
 
-#### Daily Image:
+### Daily Image:
 - `-d` download the daily image
 
 **NOTE:** Daily image has priority over the tag list
 
-#### Select image based on Keywords:
+### Select image based on Keywords:
 - `-t` allow user to select some keyword for select image
 
 ```
@@ -56,7 +56,7 @@ Downloading....
 **Image that respect "water" and/or "shark" keywords**
 ![Image that respect "water" and/or "shark" keyword](https://images.unsplash.com/photo-1530512112376-c3928c2ee68a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1920&h=1080&fit=crop&ixid=eyJhcHBfaWQiOjF9&s=8593a8c832b1808b0558fb1434455df6)
 
-#### Automatically delete unwanted images:
+### Automatically delete unwanted images:
 - If `-e` option is used, after the download, is requested if delete or not the image
 
 ```
